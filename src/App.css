@@ -3,6 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.courseTitle {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -16,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     gap: 20px;
 }
 
@@ -39,4 +46,16 @@
 
 .refleshDiv {
     text-align: center;
+}
+
+.chevron {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: red;
+
+}
+
+.chevron:hover {
+    cursor: pointer;
 }

@@ -42,7 +42,7 @@ function App() {
         <>
             {courses.length === 0 ? (
           <div className='refleshDiv'>
-            <h2>Kursların Yok</h2>
+            <h2>Kurslarım Yok</h2>
             <button className='cardDeleteBtn' onClick={() => (fetchCourses())}>Yenile</button>
           </div>
          ):
